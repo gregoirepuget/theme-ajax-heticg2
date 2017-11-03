@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="row">
+  <div class="row articles_list">
     <?php
       $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
