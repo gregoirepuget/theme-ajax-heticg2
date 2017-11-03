@@ -27,6 +27,9 @@
       }
     ?>
   </div>
+<script type="text/javascript">
+   var current_page = <?= $paged; ?>;
+</script>
 </div>
 <div class="container">
   <div class="row button_more">
