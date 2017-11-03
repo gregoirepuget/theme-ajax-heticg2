@@ -7,7 +7,7 @@ function post_function() {
 
      global $wpdb, $_POST;
 
-    $paged = $_POST['paged']+1;
+    $paged = $_POST['paged'];
     $args = array(
       'post_type' => 'post',
       'posts_per_page' => 3,

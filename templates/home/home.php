@@ -29,6 +29,7 @@
   </div>
 <script type="text/javascript">
    var current_page = <?= $paged; ?>;
+   var max_paged = <?= $the_query->max_num_pages; ?>
 </script>
 </div>
 <div class="container">

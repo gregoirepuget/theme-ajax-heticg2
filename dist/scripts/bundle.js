@@ -3,6 +3,7 @@ jQuery(document).ready(function($){
 
     $(".button_more .button").on("click", function(e){
         e.preventDefault();
+        current_page ++;
         var ajax_section =$(".articles_list"); // zone ou renvoyer le contenu de l'AJAX
         jQuery.post(
             ajaxurl, // url du fichier admin-ajax.php,
@@ -11,7 +12,12 @@ jQuery(document).ready(function($){
                 'paged': current_page // exemple de variable à envoyer.
             },
             function(response){
+
                 ajax_section.append(response);
+                if(current_page >= max_paged)
+                {
+                  $(".button_more .button").hide();
+                }
             }
         );
     });
