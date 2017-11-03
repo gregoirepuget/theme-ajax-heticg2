@@ -8,5 +8,5 @@
   ?>
   <h2><?php the_title(); ?></h2>
   <div><?php the_excerpt(); ?></div>
-  <a class="button" href="<?php the_permalink();?>" title="<?php the_title(); ?>">Lire l'article</a>
+  <a class="button" href="<?php the_permalink();?>" title="<?php the_title(); ?>"><?php _e('Read article', "theme-hetic"); ?></a>
 </article>

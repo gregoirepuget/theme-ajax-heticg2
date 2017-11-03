@@ -44,7 +44,7 @@ function firstPixel_theme_support() {
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
      */
-    load_theme_textdomain( 'firstPixel', THEME_PATH . '/languages' );
+    load_theme_textdomain( 'theme-hetic', THEME_PATH . '/languages' );
 
     /**
      *  Set up the WordPress core custom background feature.

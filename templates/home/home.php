@@ -1,5 +1,8 @@
 <div class="container">
   <div class="row articles_list">
+    <div class="row">
+      <h1><?php _e("All articles", "theme-hetic" ); ?></h1>
+    </div>
     <?php
       $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 
@@ -34,6 +37,6 @@
 </div>
 <div class="container">
   <div class="row button_more">
-      <a href="#" title="Read more" class="button">read more</a>
+      <a href="#" title="<?php _e('Read more', "theme-hetic"); ?>" class="button"><?php _e('Read more', "theme-hetic"); ?></a>
   </div>
 </div>

@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme hetic\n"
+"POT-Creation-Date: 2017-11-03 14:32+0100\n"
+"PO-Revision-Date: 2017-11-03 14:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/config.php:37
+msgid "Header main menu"
+msgstr ""
+
+#: inc/config.php:38
+msgid "Footer menu"
+msgstr ""
+
+#: templates/home/home.php:4
+msgid "All articles"
+msgstr "Tous les articles"
+
+#: templates/home/home.php:40
+msgid "Read more"
+msgstr "lire l’article"
+
+#: templates/misc/article.php:11
+msgid "Read article"
+msgstr "lire l’article"

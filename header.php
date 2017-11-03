@@ -48,6 +48,9 @@
 						 ?>
 				 </div>
 			 </div>
+			 <nav>
+				 <?php pll_the_languages(array('dropdown'=>1));  ?>
+			 </nav>
 			</header>
 
 
