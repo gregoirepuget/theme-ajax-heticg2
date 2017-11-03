@@ -28,3 +28,8 @@
     ?>
   </div>
 </div>
+<div class="container">
+  <div class="row button_more">
+      <a href="#" title="Read more" class="button">read more</a>
+  </div>
+</div>
